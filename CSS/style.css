@@ -1,25 +1,10 @@
-@media screen and (max-width: 1199px) {
-  .ERROR {
-    display: flex;
-    color: black;
-    background-color: white;
-  }
-
-  .ERROR h1 {
-    color: skyblue;
-    font-size: 100%;
-  }
-
+@media screen and (max-width: 999px) {
   body {
     display: none;
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .ERROR {
-    display: none;
-  }
-
+@media screen and (min-width: 1000px) {
   body {
     background-color: #ffffff;
     font-family: sans-serif;
