@@ -573,6 +573,10 @@
     margin-top: 10px;
   }
 
+  #guideblg h1,#guideblg p{
+    text-decoration: none;
+  }
+
   #guidetrend {
     border: 1px solid #1111f9;
     padding: 5px;
