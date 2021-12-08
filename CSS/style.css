@@ -263,6 +263,7 @@
   .cancelbtn,
   .signupbtn {
     color: white;
+    border: hidden;
     background-color: #1111f9;
     font-weight: bolder;
     padding: 14px 20px;
