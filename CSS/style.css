@@ -1,4 +1,20 @@
+@media screen and (max-width: 1199px){
+  body {
+    display: none;
+  }
+  .ERROR {
+    display: flex;
+    color: #000;
+    background-color: lavender;
+  }
+}
+
 @media screen and (min-width: 1200px) {
+
+  .ERROR {
+    display: none;
+  }
+
   body {
     background-color: #ffffff;
     font-family: sans-serif;
