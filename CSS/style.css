@@ -1,18 +1,23 @@
 @media screen and (max-width: 1199px) {
   .ERROR {
     display: flex;
-    color: #000;
-    background-color: lavender;
+    color: black;
+    background-color: white;
+  }
+
+  .ERROR h1 {
+    color: skyblue;
+    font-size: 100%;
   }
 
   body {
-    visibility: hidden;
+    display: none;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .ERROR {
-    visibility: hidden;
+    display: none;
   }
 
   body {
