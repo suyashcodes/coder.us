@@ -1,5 +1,4 @@
-@media screen and (max-width: 1199px){
-
+@media screen and (max-width: 1199px) {
   .ERROR {
     display: flex;
     color: #000;
@@ -7,15 +6,13 @@
   }
 
   body {
-    display: none;
+    visibility: hidden;
   }
-  
 }
 
 @media screen and (min-width: 1200px) {
-
   .ERROR {
-    display: none;
+    visibility: hidden;
   }
 
   body {
