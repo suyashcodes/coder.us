@@ -1,12 +1,15 @@
 @media screen and (max-width: 1199px){
-  body {
-    display: none;
-  }
+
   .ERROR {
     display: flex;
     color: #000;
     background-color: lavender;
   }
+
+  body {
+    display: none;
+  }
+  
 }
 
 @media screen and (min-width: 1200px) {
