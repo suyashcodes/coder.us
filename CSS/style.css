@@ -1050,7 +1050,7 @@
   }
 
   #llo {
-    width: 25%;
+    width: 65%;
     height: fit-content;
   }
 
@@ -1119,6 +1119,7 @@
 
   .container {
     padding: 16px;
+    width: fit-content;
   }
 
   .modal1 {
@@ -1129,16 +1130,19 @@
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
     background-color: rgba(0, 0, 0, 0.6);
     padding-top: 50px;
+  }
+
+  .signupmain #llo {
+    width: 150%;
   }
 
   .modal1-content {
     background-color: #fefefe;
     margin: 5% auto 15% auto;
     border: 1px solid #888;
-    width: 80%;
+    width: 100%;
   }
 
   hr {
