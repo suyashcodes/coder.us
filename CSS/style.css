@@ -567,7 +567,8 @@
     margin-top: 10px;
   }
 
-  #guideblg h1,#guideblg p{
+  #guideblg h1,
+  #guideblg p {
     text-decoration: none;
   }
 
@@ -847,7 +848,8 @@
   /* End of footer */
 }
 @media screen and (max-width: 999px) {
-  .dropdown,.help {
+  .dropdown,
+  .help {
     display: none;
   }
   body {
@@ -857,8 +859,6 @@
     padding: 0;
     margin: 0;
   }
-
-  
 
   /* HEADER START */
   header {
@@ -876,7 +876,6 @@
     margin-right: 20px;
   }
 
-
   .hd {
     display: flex;
     flex-direction: column;
@@ -891,7 +890,6 @@
     /* justify-content: center; */
     justify-content: space-between;
   }
-
 
   .dropdown1 {
     width: fit-content;
@@ -1209,7 +1207,7 @@
   /* INFO START */
   .info {
     box-shadow: 0 7px 20px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0.1, 0.12);
-    
+
     width: 100%;
     height: fit-content;
     display: flex;
@@ -1405,7 +1403,8 @@
     margin-top: 10px;
   }
 
-  #guideblg h1,#guideblg p{
+  #guideblg h1,
+  #guideblg p {
     text-decoration: none;
   }
 
@@ -1481,7 +1480,7 @@
   /* NEWS START */
   .news {
     box-shadow: 0 7px 20px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0.1, 0.12);
-    
+
     width: 100%;
     height: fit-content;
     display: flex;
@@ -1548,7 +1547,9 @@
   }
   /* NEWS END */
 
-  .info,.main,.news{
+  .info,
+  .main,
+  .news {
     display: block;
     margin: 0 auto;
   }
@@ -1558,13 +1559,15 @@
   }
 
   /* FOOTER START */
+  footer {
+    align-content: center;
+  }
   .ft {
     bottom: 0;
     right: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     background-color: lightgray;
     margin: 25px 0px 0px 0px;
     padding: 25px;
@@ -1573,21 +1576,27 @@
   .ft1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     color: black;
     font-size: 110%;
     margin-top: 1%;
   }
 
   footer h3 {
+    text-align: center;
     color: #1111f9;
     margin-top: 25px;
   }
 
   .ft1 h3,
   .ft1 p {
+    text-align: center;
     padding: 0;
     margin: 0;
     padding-bottom: 15px;
+  }
+  .ft1 p:last-child {
+    padding-bottom: 30px;
   }
 
   .ft2 {
@@ -1628,28 +1637,37 @@
   }
 
   .ico1 {
+    height: max-content;
+    width: max-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    margin: 15px auto;
     font-size: 150%;
+  }
+
+  .ico1 a {
+    margin: 0 10px;
   }
 
   .ico1 p {
     color: black;
     font-size: 90%;
   }
+  #mi1 {
+    margin-right: 0;
+  }
+  #mi2 {
+    margin-left: 0;
+  }
 
   .ff {
     display: flex;
     flex-direction: column;
-    margin-top: 1%;
   }
 
   .ft4 {
     margin-top: -4%;
-    margin-left: 1.5%;
   }
 
   .fa:hover {
@@ -1669,21 +1687,15 @@
 
   .fa,
   #mi1 {
-    margin: 12% 0px 10% 10%;
-  }
-
-  #mi2 {
-    margin-left: 0;
-  }
-
-  #mi1 {
-    margin-right: 0;
+    margin-bottom: 10%;
+    margin-left: 10%;
   }
 
   .ft5 {
     margin: 0;
     padding: 0;
     color: black;
+    text-align: center;
   }
 
   .ft5 p {
