@@ -330,7 +330,7 @@
   }
 
   .signupmain {
-    width: 30%;
+    width: 100%;
     margin: auto;
   }
 
@@ -722,7 +722,7 @@
     flex-wrap: wrap;
     background-color: lightgray;
     margin: 25px 0px 0px 0px;
-    padding: 25px;
+    padding: 25px 25px 25px 50px;
   }
 
   .ft1 {
@@ -731,6 +731,13 @@
     color: black;
     font-size: 110%;
     margin-top: 1%;
+  }
+
+  .ff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
   }
 
   footer h3 {
@@ -749,6 +756,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   .ft2 img {
@@ -839,6 +847,9 @@
     margin: 0;
     padding: 0;
     color: black;
+    text-align: center;
+    background-color: lightgray;
+    padding-bottom: 20px;
   }
 
   .ft5 p {
@@ -1708,6 +1719,8 @@
     padding: 0;
     color: black;
     text-align: center;
+    background-color: lightgray;
+    padding-bottom: 20px;
   }
 
   .ft5 p {
