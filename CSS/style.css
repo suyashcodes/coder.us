@@ -1483,7 +1483,7 @@
     box-shadow: 0 7px 20px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0.1, 0.12);
 
     width: 100%;
-    height: fit-content;
+    height: max-content;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1494,10 +1494,12 @@
   }
 
   .newh {
-    margin-top: 17px;
-    border-bottom: 2px solid black;
+    margin-top: 35px;
+    border-bottom: 1px solid darkgray;
   }
-
+  #newhd {
+    padding-top: 25px;
+  }
   .newh h1 {
     text-align: center;
     color: #1111f9;
