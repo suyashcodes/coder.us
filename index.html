@@ -68,7 +68,7 @@
                         name="psw"
                         required
                     >
-                    <button type="submit" id="login_bt">Login</button>
+                    <button type="submit" id="login_bt"  onclick="login()">Login</button>
                     <label>
                         <input type="checkbox" checked="checked" name="remember">
                         Remember me
@@ -80,6 +80,14 @@
                 </div>
             </form>
         </div>
+
+        <!-- JAVASCRIPT -->
+        <script>
+            function login() {
+                alert('You have successfull logged in');
+            }
+        </script>
+
         <!-- Signup Form -->
         <div id="id02" class="modal1">
             <div class="signupmain">
